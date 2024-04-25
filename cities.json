@@ -1,0 +1,2237 @@
+[
+  {
+    "city": "رامين",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "الرامة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "بلعا",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "ميثلون",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "العطارة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "زبوبا",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عنبتا",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "كفر قود",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "علار",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "قريوت",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "الولجة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "بيت كاحل",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "النزلة الشرقية",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "سيلة الظهر",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "الفندقومية",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "جبع-جنين",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "ياصيد",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "بيت امرين",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "بزارية",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "كفر اللبد",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "الطيبة-جنين",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "تعنك",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عزون",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "فرعون",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "شوفة",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "كفر دان",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "ام صفا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "عين يبرود",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بيرزيت",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "دورا القرع",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بيت ايبا",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "فلاميا",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "سبسطية",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "تلفيت",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "حبلة",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "صير-قلقيلية",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "جالود",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "دوما",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "دير نظام",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "سردا ابو قش",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "مجدل بني فاضل",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "قلقيلية",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "ام التوت",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "جلقموس",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "اوصرين",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "سفارين",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "النويعمة وعين الديوك الفوقا",
+    "governorate": "اريحا",
+    "city_id": 7
+  },
+  {
+    "city": "جيوس",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "بيت اجزا",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "كفر ثلث",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "كفر لاقف",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "باقة الحطب",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "الفندق",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "جينصافوط",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "قراوة بني حسان",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "بني زيد الشرقية",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "سنجل",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "ديرشرف",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "الناقورة",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "عينبوس",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "عوريف",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "نصف جبيل",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "اجنسنيا",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "زواتا",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "الزبابدة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "كفير",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "فصايل",
+    "governorate": "اريحا",
+    "city_id": 7
+  },
+  {
+    "city": "عين عريك",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بيت سيرا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بلعين",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "برقة-رام الله",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بيت امين",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "يعبد",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "بيت عور التحتا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "قيرة",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "الخضر",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "عين قينيا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "القبيبة",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "بيت اكسا",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "المغراقة",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "عين سينيا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "دير البلح",
+    "governorate": "دير البلح",
+    "city_id": null
+  },
+  {
+    "city": "مركة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "السيلة الحارثية",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "الهاشمية",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عبسان االكبيرة",
+    "governorate": "خانيونس",
+    "city_id": null
+  },
+  {
+    "city": "ترمسعيا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "خربة ابو فلاح",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بيت لقيا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بيت وزن",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "شقبا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "طوباس",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": "رمانة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "اليامون",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عرانة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عانين",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "برقين",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "قفين",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "قباطية",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "المغير",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "تلفيت-جنين",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "رابا",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "صيدا",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "مسلية",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عتيل",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "صانور",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "دير الغصون",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "الجديدة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عنزة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "فحمة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "سيريس",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "سلواد",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "مدينة الزاهره",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "زبدة الجديدة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "البريج",
+    "governorate": "دير البلح",
+    "city_id": null
+  },
+  {
+    "city": "برطعة الشرقية",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "كفر راعي",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "صير-جنين",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "زيتا",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "طمون",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": "عصيرة الشمالية",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "كفر قليل",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "كفل حارس",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "بديا",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "رافات-سلفيت",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "دير بلوط",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "عبوين",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بني زيد الغربية",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "المغير-رام الله",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "المزرعة الشرقية",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "العرقة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "جيبيا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "العوجا",
+    "governorate": "اريحا",
+    "city_id": 7
+  },
+  {
+    "city": "الطيبة",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "المدية",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بدرس",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "شبتين",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "حلحول",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "اذنا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "دير ابو مشعل",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "عجة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "قبيا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "جيت",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "برقة",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "حجة",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "اماتين",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "يتما",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "دير قديس",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "صفا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "خربثا بني حارث",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "نعلين",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "رمون",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "عرابة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عرب الجهالين",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "بيتونيا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "عقربا",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "كفر نعمة",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "رام الله",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "زيتا جماعين",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "ديراستيا",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "جماعين",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "بيت لاهيا",
+    "governorate": "شمال غزة",
+    "city_id": null
+  },
+  {
+    "city": "جباليا",
+    "governorate": "شمال غزة",
+    "city_id": null
+  },
+  {
+    "city": "وادي السلقا",
+    "governorate": "دير البلح",
+    "city_id": null
+  },
+  {
+    "city": "عبسان الجديدة",
+    "governorate": "خانيونس",
+    "city_id": null
+  },
+  {
+    "city": "عرب الرماضين الشمالي",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "بيت ليد",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "كفر قدوم",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "الجفتلك",
+    "governorate": "اريحا",
+    "city_id": 7
+  },
+  {
+    "city": "سلفيت",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "اللبن الشرقية",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "كفر الديك",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "كفر مالك",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "دير دبوان",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "مخماس",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "السواحرة الشرقية",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "دير اجرير",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "عناتا",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "جنين",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "البيرة",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "الزوايدة",
+    "governorate": "دير البلح",
+    "city_id": null
+  },
+  {
+    "city": "خانيونس",
+    "governorate": "خانيونس",
+    "city_id": null
+  },
+  {
+    "city": "النصر (اليبوك)",
+    "governorate": "رفح",
+    "city_id": null
+  },
+  {
+    "city": "غزة",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "النصيرات",
+    "governorate": "دير البلح",
+    "city_id": null
+  },
+  {
+    "city": "المغازي",
+    "governorate": "دير البلح",
+    "city_id": null
+  },
+  {
+    "city": "راس كركر",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "المالح",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": "جفنا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "قطنة",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "مادما",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "قوصين",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "بورين",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "روجيب",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "عصيرة القبلية",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "نابلس",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "حوارة",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "قبلان",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "حارس",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "سرطة",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "الساوية",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "جوريش",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "قراوة بني زيد",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "كفر عين",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "اللبن الغربي",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "رنتيس",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "عابود",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "الزاوية",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "بيتا",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "قصرة",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "مسحة",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "مردة",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "اسكاكا",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "فرخة",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "بروقين",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "ياسوف",
+    "governorate": "سلفيت",
+    "city_id": 8
+  },
+  {
+    "city": "بيت فوريك",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "بيت دجن",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "سالم",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "دير الحطب",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "عزموط",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "يبرود",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "دير ابزيع",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "الجيب",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "عطارة",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بير نبالا",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "خربثا المصباح",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بيت عنان",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "بيتين",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بيت عور الفوقا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "الطيرة",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بيت دقو",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "سعير",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "بيت سوريك",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "بدو",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "الزعيم",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "العبيدية",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "المصدر",
+    "governorate": "دير البلح",
+    "city_id": null
+  },
+  {
+    "city": "بتير",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "حوسان",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "وادي فوكين",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "الجبعة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "الجديرة",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "اريحا",
+    "governorate": "اريحا",
+    "city_id": 7
+  },
+  {
+    "city": "رافات",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "بني نعيم",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "جلجليا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "دير السودان",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "عجول",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "بيت ساحور",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "خشم الدرج-الهذالين",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "ترقوميا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": " مسافر يطا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "السموع",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "ارطاس",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "الظاهرية",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "بيت حانون",
+    "governorate": "شمال غزة",
+    "city_id": null
+  },
+  {
+    "city": "جحر الديك",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "القرارة",
+    "governorate": "خانيونس",
+    "city_id": null
+  },
+  {
+    "city": "بني سهيلا",
+    "governorate": "خانيونس",
+    "city_id": null
+  },
+  {
+    "city": "خزاعة",
+    "governorate": "خانيونس",
+    "city_id": null
+  },
+  {
+    "city": "الفخاري",
+    "governorate": "خانيونس",
+    "city_id": null
+  },
+  {
+    "city": "شوكة الصوفي",
+    "governorate": "رفح",
+    "city_id": null
+  },
+  {
+    "city": "رفح",
+    "governorate": "رفح",
+    "city_id": null
+  },
+  {
+    "city": "عقابا",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": "الزيتونة",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "خاراس",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "الاتحاد",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "برهام",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "كوبر",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "الزاوية-جنين",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عورتا",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "النبي صموئيل",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "الكفيرت",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "تل",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "صرة",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "العيزرية",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "الرماضين",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "طولكرم",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "بيت الروش التحتا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "بيت الروش الفوقا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "سكة وطواس",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "الصرة",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "المجد",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "رابود",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "كرمة",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "حدب الفوار",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "البرج والبيرة",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "امريش",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "دير سامت",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "الخليل",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "دير رازح",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "دورا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "تفوح",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "دير العسل الفوقا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "تقوع",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "بيت عمرة",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "يطا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "الكرمل",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "خلة المية",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "التواني",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "ام الخير",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "امنيزل",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "راس عطية",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "عزون العتمة",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "سنيريا",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "اودلا",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "كردلة",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": "طلوزة",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "خرسا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "العصاعصة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "دير العسل التحتا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "كفر زيباد",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "كفر عبوش",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "كفرصور",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "كفر جمال",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "الراس",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "كور",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "نزلة عيسى",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "باقا الشرقية",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "النجادة",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "بيت عوا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": " الكوم",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "العزب الغربي",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "النعمان",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "الخاص",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "الدوحة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "بيت سكاريا",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "الشيوخ",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "نوبا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "بيت اولا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "بيت امر",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "نحالين",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "بيت جالا",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "بيت فجار",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "المعصرة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "زعترة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "ام سلمونة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "مراح رباح",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "وادي النيص",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "مراح معلا",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "جورة الشمعة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "كيسان",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "وادي رحال",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "بيت لحم",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "دار صلاح",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "الشواورة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "جناتة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "بيت تعمر",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "هندازة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "عرب الرشايدة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "خلة الحداد",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "المنيا",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": " شيوخ العروب",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "سوسيا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "الشيخ سعد",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "مسافر بني نعيم",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "الريحية",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "صوريف",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "حتا",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "خربة الدير",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "ام الدرج (الزويدين)",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "الجاروشية",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "اكتابا",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "خربة جبارة",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "النبي الياس",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "عسلة",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "عرب ابو فردة",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "عرب الرماضين الجنوبي",
+    "governorate": "قلقيلية",
+    "city_id": 6
+  },
+  {
+    "city": "الجلمة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "الريان",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "مثلث الشهداء",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "ام الريحان",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "بيت قاد",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "مشروع بيت قاد",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "بير الباشا",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "خربة عبد الله اليونس",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "دير ابو ضعيف",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "طورة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "فحمة الجديدة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "فقوعة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "جلبون",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عربونة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "دير غزالة",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "ظهر المالح",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "ظهر العبد",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "عابا الشرقية",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "نزلة زيد",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "تياسير",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": "العقبة",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": " خربة عاطوف",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": "بردلة",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": " عين البيضاء",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": "وادي الفارعة",
+    "governorate": "طوباس",
+    "city_id": null
+  },
+  {
+    "city": "مرج نعجة",
+    "governorate": "اريحا",
+    "city_id": 7
+  },
+  {
+    "city": "الزبيدات",
+    "governorate": "اريحا",
+    "city_id": 7
+  },
+  {
+    "city": "مرج الغزال",
+    "governorate": "اريحا",
+    "city_id": 7
+  },
+  {
+    "city": "الباذان",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "العقربانية",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "عراق بورين",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "فروش بيت دجن",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "النصارية",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "بيت حسن",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "عين شبلي",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "ابوديس",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "خرائب ام اللحم",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "الجانية",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "النبي صالح",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "روابي",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "عمورية",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "ام النصر (القرية البدوية)",
+    "governorate": "شمال غزة",
+    "city_id": null
+  },
+  {
+    "city": "قلنديا",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "حزما",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "كفر عقب",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "بيت حنينا",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "جبع",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "الرام",
+    "governorate": "القدس",
+    "city_id": 9
+  },
+  {
+    "city": "مخيم الامعري",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "مخيم قدورة",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "مخيم الجلزون",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "مخيم قلنديا",
+    "governorate": "رام الله والبيرة",
+    "city_id": 1
+  },
+  {
+    "city": "مخيم بلاطه",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "مخيم عسكر",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "مخيم عين بيت الما",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "مخيم الفارعة",
+    "governorate": "نابلس",
+    "city_id": 4
+  },
+  {
+    "city": "مخيم جنين",
+    "governorate": "جنين",
+    "city_id": 2
+  },
+  {
+    "city": "مخيم نور شمس",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "مخيم طولكرم",
+    "governorate": "طولكرم",
+    "city_id": 3
+  },
+  {
+    "city": "مخيم الدهيشة",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "مخيم بيت جبرين",
+    "governorate": "بيت لحم",
+    "city_id": 5
+  },
+  {
+    "city": "مخيم العروب",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "مخيم الفور",
+    "governorate": "الخليل",
+    "city_id": 10
+  },
+  {
+    "city": "مخيم عين السلطان",
+    "governorate": "اريحا",
+    "city_id": 7
+  },
+  {
+    "city": "مخيم عقبة جبر",
+    "governorate": "اريحا",
+    "city_id": 7
+  },
+  {
+    "city": "مخيم جباليا",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم البريج",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم النصيرات",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم المغازي",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم الشاطئ",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم الجرن",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم خان يونس",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم رفح",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم كيندا",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم بيت حانون",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم البرازيل",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم دير البلح",
+    "governorate": "غزة",
+    "city_id": 11
+  },
+  {
+    "city": "مخيم شعفاط",
+    "governorate": "القدس",
+    "city_id": 9
+  }
+]
