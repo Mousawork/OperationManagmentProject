@@ -2,8 +2,10 @@
 using OperationManagmentProject.Data;
 using OperationManagmentProject.Dtos;
 using OperationManagmentProject.Entites;
+using OperationManagmentProject.Filters;
 using OperationManagmentProject.Models;
 using OperationManagmentProject.Services.User;
+using OperationManagmentProject.Services.Crise;
 
 namespace OperationManagmentProject.Controllers
 {
@@ -11,7 +13,7 @@ namespace OperationManagmentProject.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IUserService _userService;
-
+        private readonly ICriseService _criseService;
         public CriseController(AppDbContext context, IUserService userService)
         {
             _context = context;
@@ -71,7 +73,7 @@ namespace OperationManagmentProject.Controllers
                     }
                 }
 
-                return Ok("Crise Added successful");
+                return Ok(addedEntity.Entity.Id);
             }
 
             return BadRequest();
@@ -168,29 +170,55 @@ namespace OperationManagmentProject.Controllers
 
 
         [HttpGet("GetCrises")]
-        public IActionResult GetCrises()
+        public IActionResult GetCrises([FromQuery] CriseFilterModel filter)
         {
-            var CrisesDto = new List<CriseDataDto>();
-            var CrisesList = _context.Crises.ToList();
-
-            foreach (var item in CrisesList)
+            try
             {
-                CrisesDto.Add(new CriseDataDto
-                {
-                    Id = item.Id,
-                    CriseStartDate = item.CriseStartDate,
-                    Description = item.Description,
-                    Name = item.Name,
-                    PlanId = item.PlanId,
-                    GovernorateId = item.GovernorateId,
-                    Level = item.Level,
-                    Users = GetUsersInfo(item.Id),
-                    Images = GetCriseImages(item.Id),
-                    Actions = GetCriseActions(item.Id)
-                });
-            }
-            return Ok(CrisesDto);
+                // Start with the base query
+                var query = _context.Crises.AsQueryable();
+                var CrisesDto = new List<CriseDataDto>();
 
+                if (!string.IsNullOrEmpty(filter.Name))
+                {
+                    query = query.Where(u => u.Name.ToLower().Contains(filter.Name));
+                }
+                if (!string.IsNullOrEmpty(filter.CriseStartDate))
+                {
+                    query = query.Where(u => u.CriseStartDate == filter.CriseStartDate);
+                }
+                if (filter.GovernorateId != 0)
+                {
+                    query = query.Where(u => u.GovernorateId == filter.GovernorateId);
+                }
+                // Retrieve the filtered data
+                var CrisesList = query.ToList();
+
+
+                foreach (var item in CrisesList)
+                {
+                    CrisesDto.Add(new CriseDataDto
+                    {
+                        Id = item.Id,
+                        CriseStartDate = item.CriseStartDate,
+                        Description = item.Description,
+                        Name = item.Name,
+                        PlanId = item.PlanId,
+                        GovernorateId = item.GovernorateId,
+                        Level = item.Level,
+                        Users = GetUsersInfo(item.Id),
+                        Images = GetCriseImages(item.Id),
+                        Actions = GetCriseActions(item.Id)
+                    });
+                }
+                return Ok(CrisesDto);
+
+
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
 
 
         }
