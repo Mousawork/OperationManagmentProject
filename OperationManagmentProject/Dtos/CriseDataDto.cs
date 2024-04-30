@@ -13,6 +13,6 @@ namespace OperationManagmentProject.Dtos
         public int PlanId { get; set; }
         public ICollection<ImageModel>? Images { get; set; }
         public ICollection<UserModel>? Users { get; set; }
-        public ICollection<string>? Actions { get; set; }
+        public ICollection<CriseActionDto>? Actions { get; set; }
     }
 }

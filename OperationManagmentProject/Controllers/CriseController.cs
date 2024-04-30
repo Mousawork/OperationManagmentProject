@@ -5,7 +5,6 @@ using OperationManagmentProject.Entites;
 using OperationManagmentProject.Filters;
 using OperationManagmentProject.Models;
 using OperationManagmentProject.Services.User;
-using OperationManagmentProject.Services.Crise;
 
 namespace OperationManagmentProject.Controllers
 {
@@ -13,7 +12,6 @@ namespace OperationManagmentProject.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IUserService _userService;
-        private readonly ICriseService _criseService;
         public CriseController(AppDbContext context, IUserService userService)
         {
             _context = context;
@@ -223,12 +221,28 @@ namespace OperationManagmentProject.Controllers
 
         }
 
-        private ICollection<string>? GetCriseActions(int id)
+        private ICollection<CriseActionDto>? GetCriseActions(int id)
         {
-            var actionIds = _context.CrisesActions.Where(w => w.Id == id).Select(s => s.ActionId).ToList();
-            if (!actionIds.Any()) return null;
-            var actionsToReturn = _context.Action.Where(w => actionIds.Contains(w.Id)).Select(s => s.Name).ToList();
-            return actionsToReturn;
+            var actions = _context.CrisesActions.Where(w => w.CriseId == id).ToList();
+            if (!actions.Any()) return null;
+
+            var dtoToReturn = new List<CriseActionDto>();
+            var actionNames = _context.Action.ToDictionary(k => k.Id, v => v.Name);
+
+            foreach (var action in actions)
+            {
+                dtoToReturn.Add(new CriseActionDto
+                {
+                    Id = action.Id,
+                    CriseId = action.CriseId,
+                    ActionId = action.ActionId,
+                    ActionName = actionNames.ContainsKey(action.Id) ? actionNames[action.Id] : "",
+                    Report = action.Report,
+                    CreatedAt = action.CreatedAt,
+                    UpdatedAt = action.UpdatedAt,
+                });
+            }
+            return dtoToReturn;
         }
 
         private ICollection<ImageModel>? GetCriseImages(int id)
