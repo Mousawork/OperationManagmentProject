@@ -142,6 +142,22 @@ namespace OperationManagmentProject.Controllers
         }
 
 
+        [HttpPatch("UpdateCriseActionReport")]
+        public IActionResult UpdateCriseActionReport([FromBody] UpdateCriseActionModel model)
+        {
+
+            var criseAction = _context.CrisesActions.FirstOrDefault(f => f.Id == model.Id);
+
+            if (criseAction == null)
+            {
+                return BadRequest("not existing Id.");
+            }
+
+            criseAction.Report = model.Report;
+            _context.SaveChanges();
+
+            return Ok("Crise Action Updated successful");
+        }
 
         [HttpPatch("UpdateUserActionReport")]
         public IActionResult UpdateUserActionReport([FromBody] UpdateUserActionModel model)
