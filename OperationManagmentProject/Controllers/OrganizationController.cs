@@ -223,6 +223,7 @@ namespace OperationManagmentProject.Controllers
                     Name = s.Name,
                     Report = s.Report,
                     PoId = s.PoId,
+                    GovernorateId = s.GovernorateId,
                     PoName = _context.PoliticalOrientationType.FirstOrDefault(w => w.Id == s.PoId)?.Type,
                     TypeId = s.TypeId,
                     TypeName = _context.OrganizationType.FirstOrDefault(w => w.Id == s.TypeId)?.Name

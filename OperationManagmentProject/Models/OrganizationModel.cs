@@ -8,6 +8,7 @@
         public int? PoId { get; set; }
         public string? PoName { get; set; }
         public string? Name { get; set; }
+        public int? GovernorateId { get; set; }
         public string? Longitude { get; set; }
         public string? Latitude { get; set; }
         public string? Report { get; set; }

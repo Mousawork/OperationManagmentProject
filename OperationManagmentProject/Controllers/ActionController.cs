@@ -130,6 +130,7 @@ namespace OperationManagmentProject.Controllers
             var actions = _context.Action.ToList();
             var result = _context.OrganizationAction.Where(w => w.OrganizationId == organizationId).Select(s => new
             {
+                s.Id,
                 s.ActionId,
                 s.OrganizationId,
                 ActionName = GetActionName(actions, s.ActionId),
@@ -213,7 +214,7 @@ namespace OperationManagmentProject.Controllers
             return Ok(action);
         }
 
-        private string? GetActionName(List<ActionEntity> actions, int actionId)
+        static string? GetActionName(List<ActionEntity> actions, int actionId)
         {
             return actions.FirstOrDefault(w => w.Id == actionId)?.Name;
         }
