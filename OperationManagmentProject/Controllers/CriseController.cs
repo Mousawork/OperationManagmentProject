@@ -236,7 +236,7 @@ namespace OperationManagmentProject.Controllers
                     Id = action.Id,
                     CriseId = action.CriseId,
                     ActionId = action.ActionId,
-                    ActionName = actionNames.ContainsKey(action.Id) ? actionNames[action.Id] : "",
+                    ActionName = actionNames.ContainsKey(action.ActionId) ? actionNames[action.Id] : "",
                     Report = action.Report,
                     CreatedAt = action.CreatedAt,
                     UpdatedAt = action.UpdatedAt,
