@@ -181,6 +181,59 @@ namespace OperationManagmentProject.Controllers
             return BadRequest();
         }
 
+        [HttpPut("UpdateUserWeakness")]
+        public IActionResult UpdateUserWeakness([FromQuery] UpdateUserWeaknessModel model)
+        {
+            if (model != null)
+            {
+                var existingUserWeakness = _context.UserWeakness.FirstOrDefault(u => u.Id == model.Id);
+                if (existingUserWeakness == null)
+                {
+                    return NotFound("User weakness not found.");
+                }
+
+                existingUserWeakness.UserId = model.UserId;
+                existingUserWeakness.WeaknessId = (int)model.WeaknessType;
+                existingUserWeakness.WeaknessName = GetTranslation(model.WeaknessType);
+                existingUserWeakness.Description = model.Description;
+                existingUserWeakness.UpdatedAt = DateTime.UtcNow;
+
+                _context.UserWeakness.Update(existingUserWeakness);
+                _context.SaveChanges();
+
+                return Ok("User weakness updated successfully.");
+            }
+
+            return BadRequest();
+        }
+
+        [HttpDelete("DeleteUserWeakness/{id}")]
+        public IActionResult DeleteUserWeakness(int id)
+        {
+            var userWeakness = _context.UserWeakness.FirstOrDefault(u => u.Id == id);
+            if (userWeakness == null)
+            {
+                return NotFound("User weakness not found.");
+            }
+
+            _context.UserWeakness.Remove(userWeakness);
+            _context.SaveChanges();
+
+            return Ok("User weakness deleted successfully.");
+        }
+
+        [HttpGet("GetUserWeakness/{id}")]
+        public IActionResult GetUserWeakness(int id)
+        {
+            var userWeakness = _context.UserWeakness.FirstOrDefault(u => u.UserId == id);
+            if (userWeakness == null)
+            {
+                return NotFound("User weakness not found.");
+            }
+
+            return Ok(userWeakness);
+        }
+
 
         // todo: move it to userProfile controller
         [HttpPost("login")]
