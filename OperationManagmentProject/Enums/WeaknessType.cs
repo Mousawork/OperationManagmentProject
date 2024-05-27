@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace OperationManagmentProject.Enums
 {
-    [JsonConverter(typeof(JsonStringEnumConverter<WeaknessType>))]
+    //[JsonConverter(typeof(JsonStringEnumConverter<WeaknessType>))]
     public enum WeaknessType
     {
         [Translation("مال")]
