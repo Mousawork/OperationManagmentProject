@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OperationManagmentProject.Attributes;
 using OperationManagmentProject.Data;
 using OperationManagmentProject.Entites;
+using OperationManagmentProject.Enums;
 using OperationManagmentProject.Filters;
 using OperationManagmentProject.Models;
 using OperationManagmentProject.Services.User;
+using System.Reflection;
 
 namespace OperationManagmentProject.Controllers
 {
@@ -147,6 +150,35 @@ namespace OperationManagmentProject.Controllers
             {
                 return BadRequest(ex);
             }
+        }
+
+        [HttpPost("AddUserWeakness")]
+        public IActionResult AddUserWeakness([FromQuery] AddUserWeaknessModel model)
+        {
+            if (model != null)
+            {
+                var weaknessId = (int)model.WeaknessType;
+                var weaknessName = GetTranslation(model.WeaknessType);
+                if (_context.UserWeakness.Any(u => u.UserId == model.UserId && u.WeaknessId == weaknessId))
+                {
+                    return BadRequest("User weakness already exist.");
+                }
+
+                var newUserWeakness = new UserWeakness
+                {
+                    UserId = model.UserId,
+                    WeaknessId = weaknessId,
+                    WeaknessName = weaknessName,
+                    Description = model.Description,
+                    CreatedAt = DateTime.UtcNow,
+                };
+                _context.UserWeakness.Add(newUserWeakness);
+                _context.SaveChanges();
+
+                return Ok("User weakness Added successful");
+            }
+
+            return BadRequest();
         }
 
 
@@ -559,6 +591,12 @@ namespace OperationManagmentProject.Controllers
                 }
             }
             return query;
+        }
+        public static string GetTranslation(WeaknessType weaknessType)
+        {
+            FieldInfo fieldInfo = weaknessType.GetType().GetField(weaknessType.ToString());
+            TranslationAttribute attribute = (TranslationAttribute)fieldInfo.GetCustomAttributes(typeof(TranslationAttribute), false).FirstOrDefault();
+            return attribute?.Arabic ?? weaknessType.ToString();
         }
     }
 }
