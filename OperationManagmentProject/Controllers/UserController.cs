@@ -234,7 +234,90 @@ namespace OperationManagmentProject.Controllers
             return Ok(userWeakness);
         }
 
+        //UserTravel
 
+        [HttpPost("AddUserTravel")]
+        public IActionResult AddUserTravel([FromQuery] AddUserTravelModel model)
+        {
+            if (model != null)
+            {
+                //var TravelId = (int)model.UserId;
+                //var weaknessName = GetTranslation(model.WeaknessType);
+                if (_context.UserTravel.Any(u => u.UserId == model.UserId))
+                {
+                    return BadRequest("User Travel already exist.");
+                }
+
+                var newUserTravel = new UserTravel
+                {
+                    UserId = model.UserId,
+                    TravelDate = model.TravelDate,
+                    ReturnDate = model.ReturnDate,
+                    Destination=model.Destination,
+                    Description = model.Description,
+                    CreatedAt = DateTime.UtcNow,
+                };
+                _context.UserTravel.Add(newUserTravel);
+                _context.SaveChanges();
+
+                return Ok("User Travel Added successful");
+            }
+
+            return BadRequest();
+        }
+
+        [HttpGet("GetUserTravel/{id}")]
+        public IActionResult GetUserTravel(int id)
+        {
+            var userTravel = _context.UserTravel.FirstOrDefault(u => u.UserId == id);
+            if (userTravel == null)
+            {
+                return NotFound("User travel not found.");
+            }
+
+            return Ok(userTravel);
+        }
+
+        [HttpDelete("DeleteUserTravel/{id}")]
+        public IActionResult DeleteUserTravel(int id)
+        {
+            var userTravel = _context.UserTravel.FirstOrDefault(u => u.Id == id);
+            if (userTravel == null)
+            {
+                return NotFound("User Travel not found.");
+            }
+
+            _context.UserTravel.Remove(userTravel);
+            _context.SaveChanges();
+
+            return Ok("User Travel deleted successfully.");
+        }
+
+        [HttpPut("UpdateUserTravel")]
+        public IActionResult UpdateUserTravel([FromQuery] UpdateUserTravelModel model)
+        {
+            if (model != null)
+            {
+                var existingUserTravel = _context.UserTravel.FirstOrDefault(u => u.Id == model.Id);
+                if (existingUserTravel == null)
+                {
+                    return NotFound("User Travel not found.");
+                }
+
+                existingUserTravel.UserId = model.UserId;
+                existingUserTravel.TravelDate =model.TravelDate;
+                existingUserTravel.ReturnDate =model.ReturnDate;
+                existingUserTravel.Description = model.Description;
+                existingUserTravel.UpdatedAt = DateTime.UtcNow;
+
+                _context.UserTravel.Update(existingUserTravel);
+                _context.SaveChanges();
+
+                return Ok("User Travel updated successfully.");
+            }
+
+            return BadRequest();
+        }
         // todo: move it to userProfile controller
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginModel model)
