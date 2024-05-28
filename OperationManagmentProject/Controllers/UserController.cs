@@ -241,12 +241,6 @@ namespace OperationManagmentProject.Controllers
         {
             if (model != null)
             {
-                //var TravelId = (int)model.UserId;
-                //var weaknessName = GetTranslation(model.WeaknessType);
-                if (_context.UserTravel.Any(u => u.UserId == model.UserId))
-                {
-                    return BadRequest("User Travel already exist.");
-                }
 
                 var newUserTravel = new UserTravel
                 {
@@ -307,8 +301,9 @@ namespace OperationManagmentProject.Controllers
                 existingUserTravel.UserId = model.UserId;
                 existingUserTravel.TravelDate =model.TravelDate;
                 existingUserTravel.ReturnDate =model.ReturnDate;
+                existingUserTravel.Destination = model.Destination;
                 existingUserTravel.Description = model.Description;
-                existingUserTravel.UpdatedAt = DateTime.UtcNow;
+                //existingUserTravel.UpdatedAt = DateTime.UtcNow;
 
                 _context.UserTravel.Update(existingUserTravel);
                 _context.SaveChanges();
@@ -318,6 +313,7 @@ namespace OperationManagmentProject.Controllers
 
             return BadRequest();
         }
+        
         // todo: move it to userProfile controller
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginModel model)
