@@ -27,5 +27,15 @@ namespace OperationManagmentProject.Controllers
             return Ok("weakness type Added successful");
         }
 
+
+
+        [HttpGet("GetWeakness")]
+        public IActionResult GetWeakness()
+        {
+            var result = _context.WeaknessTypes.ToList();
+
+            return Ok(result);
+        }
+
     }
 }
