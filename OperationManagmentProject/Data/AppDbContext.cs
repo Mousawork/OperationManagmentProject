@@ -12,7 +12,7 @@ namespace OperationManagmentProject.Data
       
         public DbSet<Session> Session { get; set; }
         public DbSet<ActionEntity> Action { get; set; }
-        public DbSet<WeaknessType> WeaknessTypes { get; set; }
+        public DbSet<WeaknessType> WeaknessType { get; set; }
         
         public DbSet<UserEntity> Users { get; set; }
         public DbSet<UserPhoneNumber> UserPhoneNumbers { get; set; }

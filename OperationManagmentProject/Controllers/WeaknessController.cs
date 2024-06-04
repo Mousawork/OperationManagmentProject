@@ -21,7 +21,7 @@ namespace OperationManagmentProject.Controllers
             {
                 Name = name
             };
-            _context.WeaknessTypes.Add(row);
+            _context.WeaknessType.Add(row);
             _context.SaveChanges();
 
             return Ok("weakness type Added successful");
@@ -32,7 +32,7 @@ namespace OperationManagmentProject.Controllers
         [HttpGet("GetWeakness")]
         public IActionResult GetWeakness()
         {
-            var result = _context.WeaknessTypes.ToList();
+            var result = _context.WeaknessType.ToList();
 
             return Ok(result);
         }
