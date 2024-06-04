@@ -157,7 +157,7 @@ namespace OperationManagmentProject.Controllers
         {
             if (model != null)
             {
-                var weaknessObject = _context.WeaknessTypes.FirstOrDefault(f => f.Id == model.WeaknessTypeId);
+                var weaknessObject = _context.WeaknessType.FirstOrDefault(f => f.Id == model.WeaknessTypeId);
                 if (weaknessObject == null)
                 {
                     return BadRequest("weaknessId invalid.");
@@ -197,7 +197,7 @@ namespace OperationManagmentProject.Controllers
                     return NotFound("User weakness not found.");
                 }
 
-                var weaknessObject = _context.WeaknessTypes.FirstOrDefault(f => f.Id == model.WeaknessTypeId);
+                var weaknessObject = _context.WeaknessType.FirstOrDefault(f => f.Id == model.WeaknessTypeId);
                 if (weaknessObject == null)
                 {
                     return BadRequest("weaknessId invalid.");
@@ -236,7 +236,7 @@ namespace OperationManagmentProject.Controllers
         [HttpGet("GetUserWeakness/{id}")]
         public IActionResult GetUserWeakness(int id)
         {
-            var userWeakness = _context.UserWeakness.FirstOrDefault(u => u.UserId == id);
+            var userWeakness = _context.UserWeakness.Where(u => u.UserId == id).ToList();
             if (userWeakness == null)
             {
                 return NotFound("User weakness not found.");
@@ -274,7 +274,7 @@ namespace OperationManagmentProject.Controllers
         [HttpGet("GetUserTravel/{id}")]
         public IActionResult GetUserTravel(int id)
         {
-            var userTravel = _context.UserTravel.FirstOrDefault(u => u.UserId == id);
+            var userTravel = _context.UserTravel.Where(u => u.UserId == id).ToList();
             if (userTravel == null)
             {
                 return NotFound("User travel not found.");
