@@ -157,18 +157,23 @@ namespace OperationManagmentProject.Controllers
         {
             if (model != null)
             {
-                var weaknessId = (int)model.WeaknessType;
-                var weaknessName = GetTranslation(model.WeaknessType);
-                if (_context.UserWeakness.Any(u => u.UserId == model.UserId && u.WeaknessId == weaknessId))
+                var weaknessObject = _context.WeaknessTypes.FirstOrDefault(f => f.Id == model.WeaknessTypeId);
+                if (weaknessObject == null)
+                {
+                    return BadRequest("weaknessId invalid.");
+                }
+
+                if (_context.UserWeakness.Any(u => u.UserId == model.UserId && u.WeaknessId == model.WeaknessTypeId))
                 {
                     return BadRequest("User weakness already exist.");
                 }
 
+
                 var newUserWeakness = new UserWeakness
                 {
                     UserId = model.UserId,
-                    WeaknessId = weaknessId,
-                    WeaknessName = weaknessName,
+                    WeaknessId = model.WeaknessTypeId,
+                    WeaknessName = weaknessObject.Name,
                     Description = model.Description,
                     CreatedAt = DateTime.UtcNow,
                 };
@@ -192,9 +197,15 @@ namespace OperationManagmentProject.Controllers
                     return NotFound("User weakness not found.");
                 }
 
+                var weaknessObject = _context.WeaknessTypes.FirstOrDefault(f => f.Id == model.WeaknessTypeId);
+                if (weaknessObject == null)
+                {
+                    return BadRequest("weaknessId invalid.");
+                }
+
                 existingUserWeakness.UserId = model.UserId;
-                existingUserWeakness.WeaknessId = (int)model.WeaknessType;
-                existingUserWeakness.WeaknessName = GetTranslation(model.WeaknessType);
+                existingUserWeakness.WeaknessId = model.WeaknessTypeId;
+                existingUserWeakness.WeaknessName = weaknessObject.Name;
                 existingUserWeakness.Description = model.Description;
                 existingUserWeakness.UpdatedAt = DateTime.UtcNow;
 
@@ -723,12 +734,6 @@ namespace OperationManagmentProject.Controllers
                 }
             }
             return query;
-        }
-        public static string GetTranslation(WeaknessType weaknessType)
-        {
-            FieldInfo fieldInfo = weaknessType.GetType().GetField(weaknessType.ToString());
-            TranslationAttribute attribute = (TranslationAttribute)fieldInfo.GetCustomAttributes(typeof(TranslationAttribute), false).FirstOrDefault();
-            return attribute?.Arabic ?? weaknessType.ToString();
         }
     }
 }

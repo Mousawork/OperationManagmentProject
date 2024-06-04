@@ -12,7 +12,7 @@ namespace OperationManagmentProject.Models
         public int UserId { get; set; }
 
         [Required]
-        public WeaknessType WeaknessType { get; set; }
+        public int WeaknessTypeId { get; set; }
 
         public string? Description { get; set; }
     }
