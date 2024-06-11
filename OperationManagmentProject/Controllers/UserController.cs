@@ -46,6 +46,14 @@ namespace OperationManagmentProject.Controllers
                 {
                     query = query.Where(u => u.WeaponHolder);
                 }
+                if (filter.Dead == true)
+                {
+                    query = query.Where(u => u.Dead);
+                }
+                if (filter.Detained == true)
+                {
+                    query = query.Where(u => u.Detained);
+                }
                 if (!string.IsNullOrEmpty(filter.FullName))
                 {
                     query = query.Where(u => u.FullName.ToLower().Contains(filter.FullName));
@@ -391,6 +399,8 @@ namespace OperationManagmentProject.Controllers
                     IdNumber = model.IdNumber,
                     Report = model.Report,
                     WeaponHolder = model.WeaponHolder,
+                    Dead =model.Dead,
+                    Detained =model.Detained,
                     BOD = model.BOD != null ? DateTime.Parse(model.BOD) : DateTime.MinValue,
                     CreatedBy = model.CreatedBy,
                     ReportActionId = model.ReportActionId,
@@ -556,6 +566,12 @@ namespace OperationManagmentProject.Controllers
 
                 if (model.Report != null)
                     userToUpdate.WeaponHolder = model.WeaponHolder;
+
+                if (model.Report != null)
+                    userToUpdate.Detained = model.Detained;
+
+                if (model.Report != null)
+                    userToUpdate.Dead = model.Dead;
 
                 if (model.BOD != null)
                     userToUpdate.BOD = model.BOD != null ? DateTime.Parse(model.BOD) : DateTime.MinValue;

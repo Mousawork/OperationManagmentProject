@@ -12,6 +12,8 @@ namespace OperationManagmentProject.Models
         public List<string> PhoneNumbers { get; set; }
         public string? Report { get; set; }
         public bool WeaponHolder { get; set; }
+        public bool Detained { get; set; }
+        public bool Dead { get; set; }
         public string? BOD { get; set; }
         public ICollection<UserActionModel>? UserActions { get; set; }
         public ICollection<ImageModel>? UserImages { get; set; }

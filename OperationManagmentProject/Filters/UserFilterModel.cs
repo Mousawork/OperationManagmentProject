@@ -5,7 +5,8 @@
         public int GovernorateId { get; set; }
         public int CityId { get; set; }
         public bool WeaponHolder { get; set; }
-
+        public bool Detained { get; set; }
+        public bool Dead { get; set; }
         public int PoId { get; set; }
         public bool IsMilitary { get; set; }
         public bool IsAdvocacy { get; set; }

@@ -10,6 +10,8 @@ namespace OperationManagmentProject.Entites
         public required string IdNumber { get; set; }
         public string? Report { get; set; }
         public bool WeaponHolder { get; set; }
+        public bool Detained { get; set; }
+        public bool Dead { get; set; }
         public DateTime BOD { get; set; }
         public string? CreatedBy { get; set; }
         public DateTime CreatedAt { get; set; }

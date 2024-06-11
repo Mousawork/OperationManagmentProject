@@ -34,6 +34,8 @@ namespace OperationManagmentProject.Services.User
                 PhoneNumbers = _context.UserPhoneNumbers.Where(w => w.UserId == user.Id).Select(s => s.PhoneNumber).ToList(),
                 Report = user.Report,
                 WeaponHolder = user.WeaponHolder,
+                Dead= user.Dead,
+                Detained= user.Detained,
                 BOD = user.BOD.ToString(),
                 UserImages = GetUserImages(user.Id),
                 UserActions = GetUserActions(user.Id),
