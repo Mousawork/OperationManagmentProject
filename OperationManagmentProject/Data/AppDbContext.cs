@@ -26,7 +26,8 @@ namespace OperationManagmentProject.Data
         public DbSet<UserOrganizationEntity> UserOrganization { get; set; }
         public DbSet<UserWeakness> UserWeakness { get; set; }
         public DbSet<UserTravel> UserTravel { get; set; }
-
+        public DbSet<UserOrganizationRelationType> UserOrganizationRelationType { get; set; }
+        
         public DbSet<Governorate> Governorate { get; set; }
         public DbSet<PoliticalOrientation> PoliticalOrientationType { get; set; }
 

@@ -1,12 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using OperationManagmentProject.Attributes;
+using Microsoft.EntityFrameworkCore;
 using OperationManagmentProject.Data;
 using OperationManagmentProject.Entites;
-using OperationManagmentProject.Enums;
 using OperationManagmentProject.Filters;
 using OperationManagmentProject.Models;
 using OperationManagmentProject.Services.User;
-using System.Reflection;
 
 namespace OperationManagmentProject.Controllers
 {
@@ -33,6 +31,11 @@ namespace OperationManagmentProject.Controllers
                                     .ToDictionary(k => $"{k.UserId}~{k.GovernorateId}~{k.CityId}", v => v.CityId ?? 0);
         }
 
+        [HttpGet("/GetUserOrganizationRelationTypes")]
+        public async Task<ActionResult<IEnumerable<UserOrganizationRelationType>>> GetUserOrganizationRelationTypes()
+        {
+            return await _context.UserOrganizationRelationType.ToListAsync();
+        }
         [HttpGet("/GetAllUsers")]
         public IActionResult GetUsers([FromQuery] UserFilterModel filter)
         {

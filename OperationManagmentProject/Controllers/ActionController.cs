@@ -14,6 +14,32 @@ namespace OperationManagmentProject.Controllers
             _context = context;
         }
 
+
+
+        [HttpGet("GetUserActions")]
+        public IActionResult GetUserActions(DateTime startDate, DateTime endDate)
+        {
+            var actions = _context.Action.ToList();
+            var result = _context.UserActions.Where(w => w.CreatedAt >= startDate || w.CreatedAt <= endDate).Select(s => new
+            {
+                s.UserId,
+                UserName = GetUserName(s.UserId),
+                s.ActionId,
+                ActionName = GetActionName(actions, s.ActionId),
+                ActionDate = s.CreatedAt
+            }).OrderByDescending(o=> o.ActionDate).ToList();
+
+            _context.SaveChanges();
+
+            return Ok("User Actions reterived successful");
+
+        }
+
+        private string? GetUserName(int userId)
+        {
+            return _context.Users.FirstOrDefault(f => f.Id == userId)?.FullName;
+        }
+
         [HttpPost("AddUserAction")]
         public IActionResult AddUserAction([FromBody] AddUserActionModel model)
         {

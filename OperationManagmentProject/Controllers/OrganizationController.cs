@@ -143,7 +143,8 @@ namespace OperationManagmentProject.Controllers
                         var newUserOrganization = new UserOrganizationEntity
                         {
                             UserId = model.UserId.Value,
-                            OrganizationId = model.OrganizationId.Value
+                            OrganizationId = model.OrganizationId.Value,
+                            UserOrganizationRelationId = model.UserOrganizationRelationId
                         };
                         _context.UserOrganization.Add(newUserOrganization);
                         _context.SaveChanges();
@@ -274,15 +275,45 @@ namespace OperationManagmentProject.Controllers
 
         private List<OrganizationRelatedUserModel> GetOrganizationRelatedUsers(int? organizationId)
         {
-            var userIds = _context.UserOrganization.Where(w => w.OrganizationId == organizationId).Select(s => s.UserId);
-            var list = new List<OrganizationRelatedUserModel>();
-            foreach (var userId in userIds)
+            if (organizationId == null)
             {
-                var userName = _context.Users.FirstOrDefault(f => f.Id == userId)?.FullName;
-                if (userName == null) continue;
-                list.Add(new OrganizationRelatedUserModel { Id = userId, Name = userName });
+                return new List<OrganizationRelatedUserModel>();
             }
-            return list;
+
+            // Retrieve the relation types from the database
+            var relationTypes = _context.UserOrganizationRelationType.ToList();
+
+            // Query to get the related users and their relation types in a single query
+            var relatedUsers = (from userOrg in _context.UserOrganization
+                                join user in _context.Users on userOrg.UserId equals user.Id
+                                where userOrg.OrganizationId == organizationId
+                                select new
+                                {
+                                    userOrg.UserId,
+                                    user.FullName,
+                                    userOrg.UserOrganizationRelationId
+                                }).ToList();
+
+            // Construct the list of OrganizationRelatedUserModel
+            var userList = relatedUsers.Select(user => new OrganizationRelatedUserModel
+            {
+                Id = user.UserId,
+                Name = user.FullName,
+                RelationType = relationTypes.FirstOrDefault(rt => rt.Id == user.UserOrganizationRelationId)?.Type
+            }).ToList();
+
+            return userList;
+
+
+            //var userIds = _context.UserOrganization.Where(w => w.OrganizationId == organizationId).Select(s => s.UserId);
+            //var list = new List<OrganizationRelatedUserModel>();
+            //foreach (var userId in userIds)
+            //{
+            //    var userName = _context.Users.FirstOrDefault(f => f.Id == userId)?.FullName;
+            //    if (userName == null) continue;
+            //    list.Add(new OrganizationRelatedUserModel { Id = userId, Name = userName });
+            //}
+            //return list;
         }
     }
 }
